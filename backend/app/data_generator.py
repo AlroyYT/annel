@@ -25,7 +25,7 @@ def generate_synthetic_data():
     """
     
     # --- vvv 2. ADD THIS RANDOMIZED CONFIG vvv ---
-    NUM_NODES = random.randint(800, 1500)
+    NUM_NODES = random.randint(900, 1500)
     NUM_TRANSACTIONS = random.randint(4000, 7000)
     FRAUD_NODE_PERCENTAGE = random.uniform(0.04, 0.10)  # 4% to 10%
     # --- ^^^ END OF NEW CODE ^^^ ---
